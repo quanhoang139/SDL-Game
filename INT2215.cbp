@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="INT2215" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/INT2215" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/INT2215" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add directory="D:/projects/int2215/INT2215/deps/SDL2/include/SDL2" />
+		</Compiler>
+		<Linker>
+			<Add library="mingw32" />
+			<Add library="SDL2main" />
+			<Add library="SDL2.dll" />
+			<Add library="user32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add library="dxguid" />
+			<Add directory="D:/projects/int2215/INT2215/deps/SDL2/lib" />
+		</Linker>
+		<ExtraCommands>
+			<Add after="XCOPY D:\projects\int2215\INT2215\deps\SDL2\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
+		</ExtraCommands>
+		<Unit filename="Core.h" />
+		<Unit filename="Texture.cpp" />
+		<Unit filename="Texture.h" />
+		<Unit filename="Window.cpp" />
+		<Unit filename="Window.h" />
+		<Unit filename="engine.cpp" />
+		<Unit filename="engine.h" />
+		<Unit filename="gemspop.cpp" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>
