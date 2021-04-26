@@ -6,6 +6,7 @@
 #include <SDL.h>
 #include <string>
 #include "Core.h"
+#include <SDL_ttf.h>
 
 class Window {
     private:

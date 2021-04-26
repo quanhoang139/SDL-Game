@@ -1,5 +1,4 @@
 #include "Window.h"
-#include"engine.h"
 #include <iostream>
 #include<time.h>
 #include<random>
@@ -34,6 +33,11 @@ void Window::init() {
             if(renderer == nullptr)
             {
                 std::cout<<SDL_GetError()<<std::endl;
+            }
+            if(TTF_Init() == -1)
+            {
+                std::cout<< TTF_GetError()<<std::endl;
+
             }
 
         }

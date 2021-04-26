@@ -1,9 +1,9 @@
 # depslib dependency file v1.0
-1611140177 source:d:\projects\int2215\int2215\main.cpp
-	<exception>
-	<string>
-	<iostream>
+1616256155 source:d:\projects\int2215\int2215\main.cpp
 	<SDL.h>
+	<SDL_image.h>
+	<stdio.h>
+	<string>
 
 1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl.h
 	"SDL_main.h"
@@ -388,29 +388,33 @@
 	"Window.h"
 	<time.h>
 
-1615825366 source:d:\projects\int2215\int2215\window.cpp
+1618073934 source:d:\projects\int2215\int2215\window.cpp
 	"Window.h"
-	"engine.h"
 	<iostream>
 	<time.h>
 	<random>
 
-1615820540 d:\projects\int2215\int2215\window.h
+1618073934 d:\projects\int2215\int2215\window.h
 	<SDL.h>
 	<string>
 	"Core.h"
+	<SDL_ttf.h>
 
-1615749903 source:d:\projects\int2215\int2215\texture.cpp
+1618250549 source:d:\projects\int2215\int2215\texture.cpp
 	"Texture.h"
-	<SDL_image.h>
 
-1615742871 d:\projects\int2215\int2215\texture.h
+1618250549 d:\projects\int2215\int2215\texture.h
 	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<string>
 
-1615824466 d:\projects\int2215\int2215\core.h
+1618313141 d:\projects\int2215\int2215\core.h
 	"Texture.h"
 	<random>
 	<queue>
+	"Partical.h"
+	<iostream>
 
 1615750035 source:d:\projects\int2215\int2215\engine.cpp
 	"engine.h"
@@ -418,6 +422,14 @@
 1615750027 d:\projects\int2215\int2215\engine.h
 	<SDL.h>
 
-1615826129 source:d:\projects\int2215\int2215\core.cpp
+1618309796 source:d:\projects\int2215\int2215\core.cpp
 	"Core.h"
+
+1616259708 d:\projects\int2215\int2215\partical.h
+	<SDL.h>
+
+1618071953 source:d:\projects\int2215\int2215\partical.cpp
+	"Partical.h"
+	<random>
+	<iostream>
 

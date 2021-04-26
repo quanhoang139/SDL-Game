@@ -26,7 +26,7 @@ class LTexture
 
 		//Loads image at specified path
 		bool loadFromFile( std::string path );
-
+		
 		#if defined(SDL_TTF_MAJOR_VERSION)
 		//Creates image from font string
 		bool loadFromRenderedText( std::string textureText, SDL_Color textColor );
@@ -43,7 +43,7 @@ class LTexture
 
 		//Set alpha modulation
 		void setAlpha( Uint8 alpha );
-
+		
 		//Renders texture at given point
 		void render( int x, int y, SDL_Rect* clip = NULL, double angle = 0.0, SDL_Point* center = NULL, SDL_RendererFlip flip = SDL_FLIP_NONE );
 
@@ -232,7 +232,7 @@ bool LTexture::loadFromRenderedText( std::string textureText, SDL_Color textColo
 		printf( "Unable to render text surface! SDL_ttf Error: %s\n", TTF_GetError() );
 	}
 
-
+	
 	//Return success
 	return mTexture != NULL;
 }
@@ -261,7 +261,7 @@ void LTexture::setBlendMode( SDL_BlendMode blending )
 	//Set blending function
 	SDL_SetTextureBlendMode( mTexture, blending );
 }
-
+		
 void LTexture::setAlpha( Uint8 alpha )
 {
 	//Modulate texture alpha
@@ -531,7 +531,7 @@ bool loadMedia()
 		printf( "Failed to load shimmer texture!\n" );
 		success = false;
 	}
-
+	
 	//Set texture transparency
 	gRedTexture.setAlpha( 192 );
 	gGreenTexture.setAlpha( 192 );
@@ -550,7 +550,7 @@ void close()
 	gBlueTexture.free();
 	gShimmerTexture.free();
 
-	//Destroy window
+	//Destroy window	
 	SDL_DestroyRenderer( gRenderer );
 	SDL_DestroyWindow( gWindow );
 	gWindow = NULL;
@@ -576,7 +576,7 @@ int main( int argc, char* args[] )
 			printf( "Failed to load media!\n" );
 		}
 		else
-		{
+		{	
 			//Main loop flag
 			bool quit = false;
 
