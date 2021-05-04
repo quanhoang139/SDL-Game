@@ -18,6 +18,7 @@ void Core::init(SDL_Renderer* &renderer) {
     curRun = MENU;
     curHighScore = highscore[0].first;
     gameSound.load();
+    Mix_VolumeMusic(MIX_MAX_VOLUME / 2);
 
     button[0].loadButton(renderer, 256, 50, 200 - 128, 300, "asset/Image/new game.png");
     button[1].loadButton(renderer, 256, 50, 200 - 128, 380, "asset/Image/continue.png", "asset/Image/continue black.png");
@@ -43,19 +44,19 @@ void Core::handlingEvent(SDL_Event &e)
             gameOver = false;
             stageClear = false;
             curRun = INGAME;
-            Mix_VolumeMusic(MIX_MAX_VOLUME / 2);
+            //Mix_VolumeMusic(MIX_MAX_VOLUME / 2);
         }
         else if (button[1].checkUserClickPos()) {
             if (continuePre) {
                 gameOver = false;
                 stageClear = false;
                 curRun = INGAME;
-                Mix_VolumeMusic(MIX_MAX_VOLUME / 2);
+                //Mix_VolumeMusic(MIX_MAX_VOLUME / 2);
             }
         }
         else if (button[2].checkUserClickPos()) {
             curRun = RECORD_LIST;
-            Mix_VolumeMusic(MIX_MAX_VOLUME);
+            //Mix_VolumeMusic(MIX_MAX_VOLUME);
         }
         else if (button[3].checkUserClickPos()) gameSound.changeEffectVol();
         else if (button[4].checkUserClickPos()) gameSound.changeMusicVol();
@@ -67,7 +68,7 @@ void Core::handlingEvent(SDL_Event &e)
         else if (button[7].checkUserClickPos()) {
             continuePre = true;
             curRun = MENU;
-            Mix_VolumeMusic(MIX_MAX_VOLUME);
+            //Mix_VolumeMusic(MIX_MAX_VOLUME);
         }
         else {
             int x, y;
@@ -84,10 +85,10 @@ void Core::handlingEvent(SDL_Event &e)
         }
     }
     else if (curRun == NXLVBOARD) {
-        if (button[8].checkUserClickPos()) curRun = INGAME, Mix_VolumeMusic(MIX_MAX_VOLUME / 2);
+        if (button[8].checkUserClickPos()) curRun = INGAME;//, Mix_VolumeMusic(MIX_MAX_VOLUME / 2);
     }
     else {
-        if (button[9].checkUserClickPos()) curRun = MENU, Mix_VolumeMusic(MIX_MAX_VOLUME);
+        if (button[9].checkUserClickPos()) curRun = MENU;//, Mix_VolumeMusic(MIX_MAX_VOLUME);
     }
 }
 
