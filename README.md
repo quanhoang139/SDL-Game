@@ -1,5 +1,5 @@
 # SDL-Game
-Mức điểm em tự đánh giá là 8.5 - 9.5;
+Mức điểm em tự đánh giá là 8.5 - 9;
 
 game của em mô phỏng theo game popcat;
 
