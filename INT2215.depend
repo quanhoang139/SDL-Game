@@ -5,7 +5,7 @@
 	<stdio.h>
 	<string>
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl.h
 	"SDL_main.h"
 	"SDL_stdinc.h"
 	"SDL_assert.h"
@@ -41,12 +41,12 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_main.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_main.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_stdinc.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_stdinc.h
 	"SDL_config.h"
 	<sys/types.h>
 	<stdio.h>
@@ -75,28 +75,28 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_config.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_config.h
 	"SDL_platform.h"
 	<sdkddkver.h>
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_platform.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_platform.h
 	"AvailabilityMacros.h"
 	"TargetConditionals.h"
 	<winapifamily.h>
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\begin_code.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\begin_code.h
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\close_code.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\close_code.h
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_assert.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_assert.h
 	"SDL_config.h"
 	"begin_code.h"
 	<signal.h>
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_atomic.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_atomic.h
 	"SDL_stdinc.h"
 	"SDL_platform.h"
 	"begin_code.h"
@@ -104,7 +104,7 @@
 	<mbarrier.h>
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_audio.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_audio.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_endian.h"
@@ -114,25 +114,25 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_error.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_error.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_endian.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_endian.h
 	"SDL_stdinc.h"
 	<endian.h>
 	<endian.h>
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_mutex.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_mutex.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_thread.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_thread.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_atomic.h"
@@ -143,18 +143,18 @@
 	<stdlib.h>
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_rwops.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_rwops.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_clipboard.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_clipboard.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_cpuinfo.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_cpuinfo.h
 	"SDL_stdinc.h"
 	<intrin.h>
 	<intrin.h>
@@ -173,7 +173,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_events.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_events.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -187,7 +187,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_video.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_video.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -195,13 +195,13 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_pixels.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_pixels.h
 	"SDL_stdinc.h"
 	"SDL_endian.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_rect.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_rect.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_pixels.h"
@@ -209,7 +209,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_surface.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_surface.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -218,11 +218,11 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_blendmode.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_blendmode.h
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_keyboard.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_keyboard.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_keycode.h"
@@ -230,27 +230,27 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_keycode.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_keycode.h
 	"SDL_stdinc.h"
 	"SDL_scancode.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_scancode.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_scancode.h
 	"SDL_stdinc.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_mouse.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_mouse.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_joystick.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_joystick.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_gamecontroller.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_gamecontroller.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_rwops.h"
@@ -259,17 +259,17 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_sensor.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_sensor.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_quit.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_quit.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_gesture.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_gesture.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
@@ -277,65 +277,65 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_touch.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_touch.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_filesystem.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_filesystem.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_haptic.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_haptic.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"SDL_joystick.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_hints.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_hints.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_loadso.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_loadso.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_log.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_log.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_messagebox.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_messagebox.h
 	"SDL_stdinc.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_metal.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_metal.h
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_power.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_power.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_render.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_render.h
 	"SDL_stdinc.h"
 	"SDL_rect.h"
 	"SDL_video.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_shape.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_shape.h
 	"SDL_stdinc.h"
 	"SDL_pixels.h"
 	"SDL_rect.h"
@@ -344,7 +344,7 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_system.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_system.h
 	"SDL_stdinc.h"
 	"SDL_keyboard.h"
 	"SDL_render.h"
@@ -352,24 +352,24 @@
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_timer.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_timer.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572889 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_version.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_version.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_locale.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_locale.h
 	"SDL_stdinc.h"
 	"SDL_error.h"
 	"begin_code.h"
 	"close_code.h"
 
-1608572888 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_misc.h
+1619697791 d:\projects\int2215\int2215\deps\sdl2\include\sdl2\sdl_misc.h
 	"SDL_stdinc.h"
 	"begin_code.h"
 	"close_code.h"
@@ -384,36 +384,40 @@
 	<time.h>
 	<random>
 
-1615750134 source:d:\projects\int2215\int2215\gemspop.cpp
+1619697791 source:d:\projects\int2215\int2215\gemspop.cpp
 	"Window.h"
 	<time.h>
 
-1618073934 source:d:\projects\int2215\int2215\window.cpp
+1620101478 source:d:\projects\int2215\int2215\window.cpp
 	"Window.h"
 	<iostream>
 	<time.h>
 	<random>
 
-1618073934 d:\projects\int2215\int2215\window.h
+1620052207 d:\projects\int2215\int2215\window.h
 	<SDL.h>
 	<string>
 	"Core.h"
 	<SDL_ttf.h>
+	<SDL_mixer.h>
 
-1618250549 source:d:\projects\int2215\int2215\texture.cpp
+1620107890 source:d:\projects\int2215\int2215\texture.cpp
 	"Texture.h"
+	<SDL_mixer.h>
 
-1618250549 d:\projects\int2215\int2215\texture.h
+1620107026 d:\projects\int2215\int2215\texture.h
 	<SDL.h>
 	<SDL_image.h>
 	<SDL_ttf.h>
 	<string>
 
-1618313141 d:\projects\int2215\int2215\core.h
+1620101586 d:\projects\int2215\int2215\core.h
 	"Texture.h"
 	<random>
 	<queue>
 	"Partical.h"
+	"Button.h"
+	"Sound.h"
 	<iostream>
 
 1615750035 source:d:\projects\int2215\int2215\engine.cpp
@@ -422,14 +426,95 @@
 1615750027 d:\projects\int2215\int2215\engine.h
 	<SDL.h>
 
-1618309796 source:d:\projects\int2215\int2215\core.cpp
+1620108496 source:d:\projects\int2215\int2215\core.cpp
 	"Core.h"
 
-1616259708 d:\projects\int2215\int2215\partical.h
+1619697791 d:\projects\int2215\int2215\partical.h
 	<SDL.h>
 
-1618071953 source:d:\projects\int2215\int2215\partical.cpp
+1620107417 source:d:\projects\int2215\int2215\partical.cpp
 	"Partical.h"
 	<random>
+	<iostream>
+
+1620108496 source:c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\core.cpp
+	"Core.h"
+
+1620101586 c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\core.h
+	"Texture.h"
+	<random>
+	<queue>
+	"Partical.h"
+	"Button.h"
+	"Sound.h"
+	<iostream>
+
+1620107026 c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\texture.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_ttf.h>
+	<string>
+
+1619697791 c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\partical.h
+	<SDL.h>
+
+1619697791 source:c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\gemspop.cpp
+	"Window.h"
+	<time.h>
+
+1620052207 c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\window.h
+	<SDL.h>
+	<string>
+	"Core.h"
+	<SDL_ttf.h>
+	<SDL_mixer.h>
+
+1620107417 source:c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\partical.cpp
+	"Partical.h"
+	<random>
+	<iostream>
+
+1620107890 source:c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\texture.cpp
+	"Texture.h"
+	<SDL_mixer.h>
+
+1620101478 source:c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\window.cpp
+	"Window.h"
+	<iostream>
+	<time.h>
+	<random>
+
+1620098691 source:c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\sound.cpp
+	"Sound.h"
+	<iostream>
+
+1620101186 c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\sound.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1620058058 c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\button.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<string>
+
+1620058121 source:c:\users\fmlph\onedrive\codeblocks ide 17-20\sdl-game\button.cpp
+	"Button.h"
+
+1620058121 source:d:\projects\int2215\int2215\button.cpp
+	"Button.h"
+
+1620058058 d:\projects\int2215\int2215\button.h
+	<SDL.h>
+	<SDL_image.h>
+	<SDL_mixer.h>
+	<string>
+
+1620101186 d:\projects\int2215\int2215\sound.h
+	<SDL.h>
+	<SDL_mixer.h>
+
+1620098691 source:d:\projects\int2215\int2215\sound.cpp
+	"Sound.h"
 	<iostream>
 

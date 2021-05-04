@@ -5,11 +5,11 @@
 Partical :: Partical(int id)
 {
     int i = id / 40, j = (id) % 40;
-    i = i * 40; j = j * 40 + 100;
+    i = i * 40; j = j * 40 + 200;
     posX = (i - rand() % 160) + rand() % 160;
     posY = (j - rand() % 160) + rand() % 160;
     size = rand() % 40;
-    frame = rand() % 30;
+    frame = rand() % 20;
 }
 
 Partical::~Partical() {

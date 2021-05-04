@@ -37,9 +37,12 @@ void Window::init() {
             if(TTF_Init() == -1)
             {
                 std::cout<< TTF_GetError()<<std::endl;
-
             }
-
+            //Mix_Init(MIX_INIT_FLAC);
+            //cout << Mix_Init(MIX_INIT_MP3);
+            if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 4, 4096) < 0) {
+                std::cout<< Mix_GetError()<<std::endl;
+            }
         }
     }
 }
@@ -67,4 +70,5 @@ void Window::run() {
         gamePlay.renderTexture(renderer);
         SDL_RenderPresent(renderer);
     }
+    gamePlay.saveData();
 }

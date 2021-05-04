@@ -7,6 +7,7 @@
 #include <string>
 #include "Core.h"
 #include <SDL_ttf.h>
+#include <SDL_mixer.h>
 
 class Window {
     private:
@@ -15,7 +16,7 @@ class Window {
         Core gamePlay;
 
         const int SCREEN_WIDTH = 400;
-        const int SCREEN_HEIGHT = 600;
+        const int SCREEN_HEIGHT = 667;
         const std::string WINDOW_TITTLE = "Gem Pop";
     public:
         Window();

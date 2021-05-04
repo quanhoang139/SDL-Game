@@ -45,10 +45,14 @@
 		<ExtraCommands>
 			<Add after="XCOPY D:\projects\int2215\INT2215\deps\SDL2\bin\*.dll $(TARGET_OUTPUT_DIR) /D /Y" />
 		</ExtraCommands>
+		<Unit filename="Button.cpp" />
+		<Unit filename="Button.h" />
 		<Unit filename="Core.cpp" />
 		<Unit filename="Core.h" />
 		<Unit filename="Partical.cpp" />
 		<Unit filename="Partical.h" />
+		<Unit filename="Sound.cpp" />
+		<Unit filename="Sound.h" />
 		<Unit filename="Texture.cpp" />
 		<Unit filename="Texture.h" />
 		<Unit filename="Window.cpp" />
