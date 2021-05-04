@@ -3,7 +3,7 @@ Mức điểm em tự đánh giá là 8.5 - 9;
 
 game của em mô phỏng theo game popcat;
 
-code tham khảo trên lazyfoo;
+hojc cachs sử dụng SDL trên lazyfoo;
 
 hình ảnh là chụp màn hình rồi photoshop;
 
