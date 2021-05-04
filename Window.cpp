@@ -38,7 +38,7 @@ void Window::init() {
             {
                 std::cout<< TTF_GetError()<<std::endl;
             }
-            //Mix_Init(MIX_INIT_FLAC);
+            Mix_Init(MIX_INIT_FLAC);
             //cout << Mix_Init(MIX_INIT_MP3);
             if (Mix_OpenAudio(44100, MIX_DEFAULT_FORMAT, 4, 4096) < 0) {
                 std::cout<< Mix_GetError()<<std::endl;

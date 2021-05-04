@@ -11,6 +11,7 @@ Sound::~Sound() {
 
 void Sound::load() {
     gameBG = Mix_LoadMUS("asset/Sound/GameBG.flac");
+    if (gameBG == nullptr) std::cout << Mix_GetError();
     Mix_PlayMusic(gameBG, -1);
     effectVol = musicVol = true;
     effect[0] = Mix_LoadWAV("asset/Sound/EffectSelectStar.wav");
