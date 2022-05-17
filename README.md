@@ -2,7 +2,7 @@
 *Một dự án nhỏ phục vụ cho nhu cầu học tập tại UET* 
 
 --------------------------
-Xin chào các bạn, mình tên là Ngọc. Trong project này, mình làm về tựa game [Popcats](https://appngon.mobi/tai-game-pop-cat/) ở trên điện thoại. Ngôn ngữ được sử dụng là [C++](https://vi.wikipedia.org/wiki/C%2B%2B) và sử dụng thư viện đồ họa [SDL2.0](https://www.libsdl.org/).
+Xin chào các bạn, mình tên là Ngọc. Trong project này, mình làm về tựa game [Popcats](https://gunnypc.zing.vn/huong-dan/tieu-hoc/ga-con-mao-hiem.html/) ở trên điện thoại. Ngôn ngữ được sử dụng là [C++](https://vi.wikipedia.org/wiki/C%2B%2B) và sử dụng thư viện đồ họa [SDL2.0](https://www.libsdl.org/).
 
 Mục tiêu của game là đạt được số điểm cao nhất có thể. 5 người đạt được số điểm cao nhất sẽ được lưu lại.
 
